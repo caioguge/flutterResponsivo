@@ -122,7 +122,48 @@ class TopSection extends StatelessWidget {
           );
         }
 
-        return Container();
+        return Column(
+          children: [
+            // Conforme a tela vai diminuindo, a imagem também será
+            AspectRatio(
+              aspectRatio: 3.4,
+              child: Image.network(
+                'https://images.pexels.com/photos/892757/pexels-photo-892757.jpeg?auto-compress',
+                fit: BoxFit.cover,
+              ),
+            ),
+            const Padding(
+              padding: EdgeInsets.all(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'Aprenda Flutter no seu tempo',
+                    style: TextStyle(
+                      fontSize: 35,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                    ),
+                  ),
+                  SizedBox(
+                    height: 8,
+                  ),
+                  Text(
+                    'Bora aprender Flutter com o professor Daniel Ciolfi! Cursos por apenas R\$22,90. Qualidade garantida.',
+                    style: TextStyle(
+                      fontSize: 15,
+                      color: Colors.white,
+                    ),
+                  ),
+                  SizedBox(
+                    height: 16,
+                  ),
+                  CustomSearchField(),
+                ],
+              ),
+            )
+          ],
+        );
       },
     );
   }
