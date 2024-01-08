@@ -9,6 +9,9 @@ class MobileAppBar extends StatelessWidget {
       backgroundColor: Colors.black,
       title: const Text(
         'Flutter',
+        style: TextStyle(
+          color: Colors.white,
+        ),
       ),
       centerTitle: true,
       actions: [
