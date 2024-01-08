@@ -13,6 +13,9 @@ class WebAppBar extends StatelessWidget {
         children: [
           const Text(
             'Flutter',
+            style: TextStyle(
+              color: Colors.white,
+            ),
           ),
           const SizedBox(
             width: 32,
@@ -22,25 +25,22 @@ class WebAppBar extends StatelessWidget {
             onPressed: () {},
             icon: const Icon(
               Icons.shopping_cart,
+              color: Colors.white,
             ),
           ),
           const SizedBox(
-            width: 24,
-          ),
-          const SizedBox(
-            height: 38,
-            child: OutlinedButtonTheme(
-              data: OutlinedButtonThemeData(
+            child: ElevatedButtonTheme(
+              data: ElevatedButtonThemeData(
                 style: ButtonStyle(
-                  textStyle: MaterialStatePropertyAll(
-                    TextStyle(
-                      color: Colors.white,
-                    ),
-                  ),
+                  backgroundColor: MaterialStatePropertyAll(Colors.white),
                 ),
               ),
               child: Text(
-                'Fazer login',
+                'Fazer Login',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 16,
+                ),
               ),
             ),
           ),

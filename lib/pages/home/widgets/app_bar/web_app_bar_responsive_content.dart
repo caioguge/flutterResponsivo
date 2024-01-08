@@ -58,6 +58,7 @@ class WebAppBarResponsiveContent extends StatelessWidget {
                     'Aprender',
                     style: TextStyle(
                       color: Colors.white,
+                      fontSize: 16,
                     ),
                   ),
                 ),
@@ -76,6 +77,7 @@ class WebAppBarResponsiveContent extends StatelessWidget {
                     'Flutter',
                     style: TextStyle(
                       color: Colors.white,
+                      fontSize: 16,
                     ),
                   ),
                 ),

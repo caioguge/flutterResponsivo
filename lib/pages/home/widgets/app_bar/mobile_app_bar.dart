@@ -6,6 +6,7 @@ class MobileAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      iconTheme: const IconThemeData(color: Colors.white),
       backgroundColor: Colors.black,
       title: const Text(
         'Flutter',
@@ -19,12 +20,14 @@ class MobileAppBar extends StatelessWidget {
           onPressed: () {},
           icon: const Icon(
             Icons.search,
+            color: Colors.white,
           ),
         ),
         IconButton(
           onPressed: () {},
           icon: const Icon(
             Icons.shopping_cart,
+            color: Colors.white,
           ),
         )
       ],
