@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:layout_builder_na_pratica/breakpoints.dart';
+import 'package:layout_builder_na_pratica/pages/home/widgets/course_item.dart';
 
 class CoursesSection extends StatelessWidget {
   const CoursesSection({super.key});
@@ -24,9 +25,7 @@ class CoursesSection extends StatelessWidget {
           shrinkWrap: true,
           itemCount: 20,
           itemBuilder: (context, index) {
-            return Container(
-              color: Colors.red,
-            );
+            return const CourseItem();
           },
         );
       },
