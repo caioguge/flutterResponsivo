@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:layout_builder_na_pratica/breakpoints.dart';
 import 'package:layout_builder_na_pratica/pages/home/widgets/app_bar/web_app_dar.dart';
 import 'package:layout_builder_na_pratica/pages/home/widgets/sections/advantages_section.dart';
+import 'package:layout_builder_na_pratica/pages/home/widgets/sections/courses_section.dart';
 import 'package:layout_builder_na_pratica/pages/home/widgets/sections/top_section.dart';
 import 'widgets/app_bar/mobile_app_bar.dart';
 
@@ -40,6 +41,7 @@ class HomePage extends StatelessWidget {
                 children: const [
                   TopSection(),
                   AdvantagesSection(),
+                  CoursesSection(),
                 ],
               ),
             ),
