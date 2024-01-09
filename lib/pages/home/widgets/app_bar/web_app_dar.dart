@@ -48,7 +48,6 @@ class WebAppBar extends StatelessWidget {
             width: 8,
           ),
           const SizedBox(
-            height: 40,
             child: ElevatedButtonTheme(
               data: ElevatedButtonThemeData(
                 style: ButtonStyle(
@@ -58,11 +57,12 @@ class WebAppBar extends StatelessWidget {
               child: Text(
                 'Cadastre-se',
                 style: TextStyle(
-                  color: Colors.black,
+                  color: Colors.white,
+                  fontSize: 16,
                 ),
               ),
             ),
-          )
+          ),
         ],
       ),
     );

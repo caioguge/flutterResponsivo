@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 
 class CourseItem extends StatelessWidget {
@@ -15,11 +16,22 @@ class CourseItem extends StatelessWidget {
         const SizedBox(
           height: 4,
         ),
-        const Text(
-          'Criação de Apps Android e iOS com Flutter',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 16,
+        const SizedBox(
+          height: 4,
+        ),
+        Flexible(
+          child: LayoutBuilder(
+            builder: (_, constraints) {
+              return const AutoSizeText(
+                'Criação de Apps Android e iOS com Flutter - Crie 16 Apps',
+                minFontSize: 3,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 16,
+                  color: Colors.white,
+                ),
+              );
+            },
           ),
         ),
         const Text(
