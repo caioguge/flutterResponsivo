@@ -54,15 +54,18 @@ The following tools were used in the construction of the project:
 
 ---
 
-## 📝 Images of project
+## :star2: Images of project
 
 **Mobile version:**
+<br>
 ![mobile-version](https://github.com/caioguge/flutterResponsivo/assets/59846756/cda19ec3-c182-4955-b117-1be4025c4ff1)
 
 **Table version:**
+<br>
 ![tablet-version](https://github.com/caioguge/flutterResponsivo/assets/59846756/780b001a-3f9f-461d-bf01-28d63e287d39)
 
 **Web version:**
+<br>
 ![web-version](https://github.com/caioguge/flutterResponsivo/assets/59846756/11541cb4-f1aa-443b-a23d-43f33d80e06b)
 
 
