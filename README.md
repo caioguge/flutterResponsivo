@@ -54,7 +54,7 @@ The following tools were used in the construction of the project:
 
 ---
 
-## :star2: Images of project
+## :star2: Images of Project
 
 **Mobile version:**
 <br>
