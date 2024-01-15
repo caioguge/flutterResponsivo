@@ -6,15 +6,16 @@
  <a href="#-about-the-project">About the project</a> •
  <a href="#-how-to-execute">How to execute</a> • 
  <a href="#-technologies">Technologies</a> • 
+ <a href="#-images-of-project">Images of Project</a> • 
  <a href="#-license">License</a>
 </p>
 
 ## 💻 About the project
 
-Responsive Flutter - Was a module in **Start to Dev** ministered by the professor **Daniel Ciolfi**, who taught us how to consume an API, (in this case, an API created by us, the students). The comments in this project is in Portuguese-BR, however you can search for the traslation later.
+Responsive Flutter - Was a course in **Start to Dev** administered by the professor **Daniel Ciolfi**, who taught us how to adapt a Flutter project to any device (Web, Tablet, Cellphone). The comments in this project are in Portuguese-BR; however, you can search for the translation later..
 
 
-The entire project was desenvolved in the dart console.
+The entire project was desenvolved in Flutter.
 
 The link for the **Start to Dev** is below :point_down:
 <br>
@@ -37,16 +38,10 @@ Having completed the previous steps, let's proceed.
 ```bash
 
 # Clone this repository
-$ https://github.com/caioguge/consumo_api
-
-# Also it's necessary to install the package 'json_rest_server', below is the code to install:
-$ dart pub global activate json_rest_server
+$ https://github.com/caioguge/flutterResponsivo
 
 # Go to the project root in the Visual Studio Code and execute this code in the terminal:
-$ json_rest_server run OR jrs run
-
-# Execute the application
-$ dart run
+$ flutter run
 
 ```
 ---
@@ -55,8 +50,21 @@ $ dart run
 
 The following tools were used in the construction of the project:
 
--   **[Dart](https://dart.dev/)**
--   **[Json_rest_server](https://pub.dev/packages/json_rest_server)**
+-   **[Flutter]([https://pub.dev/packages/json_rest_server](https://flutter.dev/))**
+
+---
+
+## 📝 Images of project
+
+**Mobile version:**
+![mobile-version](https://github.com/caioguge/flutterResponsivo/assets/59846756/cda19ec3-c182-4955-b117-1be4025c4ff1)
+
+**Table version:**
+![tablet-version](https://github.com/caioguge/flutterResponsivo/assets/59846756/780b001a-3f9f-461d-bf01-28d63e287d39)
+
+**Web version:**
+![web-version](https://github.com/caioguge/flutterResponsivo/assets/59846756/11541cb4-f1aa-443b-a23d-43f33d80e06b)
+
 
 ---
 
